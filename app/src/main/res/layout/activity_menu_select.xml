@@ -78,7 +78,7 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginRight="1dp"
@@ -88,7 +88,7 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginRight="1dp"
@@ -98,7 +98,7 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="170dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/americano" />
@@ -146,7 +146,7 @@
 
             <EditText
                 android:id="@+id/show_price1"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
@@ -156,7 +156,7 @@
 
             <EditText
                 android:id="@+id/show_price2"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
@@ -166,7 +166,7 @@
 
             <EditText
                 android:id="@+id/show_price3"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
@@ -188,17 +188,21 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:background="@drawable/button_back"
-            android:text="< 이전"
+            android:text="&lt; 이전"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button7"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="40dp"
             android:layout_height="50dp"
-            android:text="<"
+            android:text="&lt;"
             android:textSize="20dp"
             app:layout_constraintEnd_toStartOf="@+id/button8"
             app:layout_constraintTop_toTopOf="parent" />
@@ -270,7 +274,7 @@
 
                 <TextView
                     android:id="@+id/menu_name"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="4"
                     android:background="@drawable/table_header"
@@ -281,7 +285,7 @@
 
                 <TextView
                     android:id="@+id/quantity"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:background="@drawable/table_header"
@@ -292,7 +296,7 @@
 
                 <TextView
                     android:id="@+id/price"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:background="@drawable/table_header"
@@ -303,7 +307,7 @@
 
                 <TextView
                     android:id="@+id/delete"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/table_header"
@@ -347,7 +351,7 @@
 
         <TextView
             android:id="@+id/total"
-            android:layout_width="0"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2.5"
             android:gravity="center"
@@ -356,7 +360,7 @@
 
         <EditText
             android:id="@+id/total_price"
-            android:layout_width="0"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:ems="10"
@@ -365,7 +369,7 @@
 
         <TextView
             android:id="@+id/textView10"
-            android:layout_width="0"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="원"

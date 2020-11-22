@@ -24,7 +24,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="0"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1.5"
@@ -50,13 +50,13 @@
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_back"
-                android:text="<이전"
+                android:text="&lt;이전"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:orientation="vertical">
@@ -115,7 +115,7 @@
 
                 <Button
                     android:id="@+id/button17"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="100%\n+0원"
@@ -123,7 +123,7 @@
 
                 <Button
                     android:id="@+id/button18"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="50%\n+0원"
@@ -131,7 +131,7 @@
 
                 <Button
                     android:id="@+id/button19"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0%\n+0원"
@@ -155,7 +155,7 @@
 
                 <Button
                     android:id="@+id/button20"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="코코넛젤리\n+500원"
@@ -163,7 +163,7 @@
 
                 <Button
                     android:id="@+id/button23"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="타피오카펄\n+500원"
@@ -171,7 +171,7 @@
 
                 <Button
                     android:id="@+id/button24"
-                    android:layout_width="0"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="치즈폼\n+500원"
