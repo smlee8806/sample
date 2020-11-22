@@ -9,6 +9,7 @@ public class MenuSelect extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	안녕 상민
         setContentView(R.layout.activity_menu_select);
     }
 }

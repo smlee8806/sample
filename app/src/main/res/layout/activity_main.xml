@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="428dp"
         android:background="#FFBF00"
-        android:text="주문하기"
+        android:text="주문하기 뿅뿅"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
